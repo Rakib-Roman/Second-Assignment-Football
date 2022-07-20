@@ -120,3 +120,31 @@ body {
 }
 
 /* main end */
+/* footer */
+
+.goal {
+    text-align: center;
+    font-size: 2em;
+    background-color: rgb(20, 18, 18);
+    color: azure;
+    align-items: center;
+    border: 20px;
+    padding: 40px;
+    border-radius: 20px;
+
+}
+
+.footer {
+    display: flex;
+    font-size: 10px;
+    gap: 15px;
+    padding-left: 390px;
+    margin-bottom: 20px;
+
+}
+
+.social-id {
+    display: flex;
+    gap: 17px;
+    padding-left: 560px;
+}
