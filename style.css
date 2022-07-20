@@ -150,6 +150,8 @@ body {
 }
 
 /* footer end */
+
+/* mobile Responsive  */
 @media only screen and (max-width:688px) {
     .container {
 
@@ -162,20 +164,36 @@ body {
     .container img {
         text-align: end;
     }
+
+    .sidebar {
+        display: grid;
+        grid-row: auto;
+
+    }
+
+    .main-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
-.sidebar {
-    display: grid;
-    grid-row: auto;
 
-}
 
-.main-grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-}
 
-.goal.footer {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+
+/*-----------
+ Tab Responsive
+ ----------*/
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .main-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        padding-top: 100px;
+        padding-right: 40px;
+    }
+
+    .sidebar {
+        display: flex;
+    }
 }
