@@ -148,3 +148,34 @@ body {
     gap: 17px;
     padding-left: 560px;
 }
+
+/* footer end */
+@media only screen and (max-width:688px) {
+    .container {
+
+        width: 300px;
+        height: 688px;
+
+
+    }
+
+    .container img {
+        text-align: end;
+    }
+}
+
+.sidebar {
+    display: grid;
+    grid-row: auto;
+
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.goal.footer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
